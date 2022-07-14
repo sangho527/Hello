@@ -11,6 +11,6 @@ class Child extends Access_modifier{
         System.out.println(c.name);
         System.out.println(c.age);
         System.out.println(c.height);
-        //System.out.println(c.weight); // weight 는 private 접근지정자를 사용하기 때문에 상속관계에서 사용이 불가능하다.
+        //System.out.println(c.weight); // weight 는 private
     }
 }
