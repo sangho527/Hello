@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2b5dc-cdfe-40d8-86dd-8dd70fef3774" name="변경" comment="접근지정자">
-      <change afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Access_modifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Access_modifier.java" afterDir="false" />
+    <list default="true" id="78b2b5dc-cdfe-40d8-86dd-8dd70fef3774" name="변경" comment="연습 반복문">
+      <change afterPath="$PROJECT_DIR$/src/array.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.Triangular">
+  <component name="RunManager" selected="애플리케이션.array">
     <configuration name="Child" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Child" />
       <module name="Study_Java" />
@@ -59,13 +57,6 @@
     </configuration>
     <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ListTest" />
-      <module name="Study_Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Scanner" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,13 +76,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array" />
+      <module name="Study_Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.array" />
         <item itemvalue="애플리케이션.Triangular" />
         <item itemvalue="애플리케이션.ListTest" />
         <item itemvalue="애플리케이션.Child" />
         <item itemvalue="애플리케이션.Scanner1" />
-        <item itemvalue="애플리케이션.Scanner" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +103,7 @@
       <updated>1657460837859</updated>
       <workItem from="1657460843134" duration="1013000" />
       <workItem from="1657463250750" duration="2214000" />
-      <workItem from="1657601427413" duration="3402000" />
+      <workItem from="1657601427413" duration="4106000" />
     </task>
     <task id="LOCAL-00001" summary="변수">
       <created>1657461077621</created>
@@ -135,7 +133,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657601752456</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="접근제한자">
+      <created>1657808041620</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657808041620</updated>
+    </task>
+    <task id="LOCAL-00006" summary="연습 반복문">
+      <created>1657808084440</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657808084440</updated>
+    </task>
+    <task id="LOCAL-00007" summary="연습 반복문">
+      <created>1657808089307</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657808089307</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +175,8 @@
     <MESSAGE value="변수" />
     <MESSAGE value="스캐너" />
     <MESSAGE value="접근지정자" />
-    <option name="LAST_COMMIT_MESSAGE" value="접근지정자" />
+    <MESSAGE value="접근제한자" />
+    <MESSAGE value="연습 반복문" />
+    <option name="LAST_COMMIT_MESSAGE" value="연습 반복문" />
   </component>
 </project>
