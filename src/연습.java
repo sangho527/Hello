@@ -1,14 +1,18 @@
-public class 연습 {
-    public static void main(String[] args) {
-        int i = 0;
-        int sum = 0;
-        while (i<10){
-            i++;
-            if(i%2==1)
-                continue;
-            sum += i;
+class A{
+    static void f() {
+        System.out.println("1");
 
-        }
-        System.out.println(sum);
-    }
 }
+
+    class B extends A {
+        static void f() {
+            System.out.println("3");
+        }
+
+        public class C {
+            public void main(String[] args) {
+                A a = new B();
+                a.f();
+            }
+        }
+    }
