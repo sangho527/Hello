@@ -10,7 +10,7 @@ public class 연습{
         }
     }
 
-    public static void makeArray(int[] args) {
+    public static void makeArray(int[] args) { // 반복문
         for(int i = 0; i<nSize; i++) {
             int[] arr = new int[0];
             arr[i] = i;
