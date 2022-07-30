@@ -1,5 +1,5 @@
 public class 연습{
-    static int nSize = 4;
+    static int nSize = 4; // 정적변수
 
     public static void main(String[] args) {
         int[] arr = new int[nSize];
