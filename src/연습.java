@@ -1,7 +1,7 @@
 public class 연습{
     static int nSize = 4; // 정적변수
 
-    public static void main(String[] args) { // 메인 선언
+    public static void main(String[] args) {
         int[] arr = new int[nSize];
         makeArray(arr);
         
