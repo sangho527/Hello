@@ -5,7 +5,7 @@ public class 연습{
         int[] arr = new int[nSize];
         makeArray(arr);
         
-        for(int i = 0; i<nSize; i++) { //반복문
+        for(int i = 0; i<nSize; i++) {
             System.out.println(arr[i] + "");
         }
     }
