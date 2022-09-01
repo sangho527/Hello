@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class 문제1 {
     public static void main(String[] args) {
         double radius;
-        double PI = 3.141592653589793;
+        double PI = Math.PI;
 
 
 
