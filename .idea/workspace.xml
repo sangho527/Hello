@@ -128,7 +128,7 @@
       <workItem from="1660119705167" duration="10000" />
       <workItem from="1660224110254" duration="7000" />
       <workItem from="1661996056137" duration="5974000" />
-      <workItem from="1662016349117" duration="22958000" />
+      <workItem from="1662016349117" duration="27084000" />
     </task>
     <task id="LOCAL-00001" summary="변수">
       <created>1657461077621</created>
@@ -340,7 +340,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662044235713</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="백엔드스쿨">
+      <created>1662135899326</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1662135899326</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

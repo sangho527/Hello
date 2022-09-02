@@ -7,58 +7,60 @@ import java.util.Scanner;
 import java.time.LocalDate;
 
 
-/*class post {
-    private final long name;
-    private final String title;
-    private final LocalDate createdAt;
-
-
-}*/
 public class 문제4 {
     public static void main(String[] args) {
 
         ArrayList<String> title = new ArrayList<String>();
         String name = null;
         LocalDate now = LocalDate.now();
+        int size = title.size();
+        String newline = System.getProperty("line.separator");
+        title.add(0, "");
+
+        
 
 
         Scanner sc = new Scanner(System.in);
+        boolean bool = true;
 
 
+        while (bool) {
 
 
+            System.out.println("1.전체리스트 2.등록 0.종료");
+            int input = sc.nextInt();
+            
 
-        while(true) {
+            switch (input) {
+                case 1:{
 
-
-                System.out.println("1.전체리스트 2.등록 0.종료");
-                String input = sc.next();
-
-                if (input.equals("1")) {
                     System.out.println("== 게시물 리스트 ==");
-                    System.out.println("no          " + "title            " + "date");
-                    System.out.printf("%d           %s          %s\n", i, title.get(i), now);
+                    System.out.println("no          " + "title                  " + "date");
+                    for (int i = 1; i <title.size(); i++){
+                    System.out.printf("%d           %s            %s", i, title.get(i), now + newline);
+                    }
+                    break;
 
-                    //System.out.printf("%d           %s          %s\n", i, title.get(i), now);
-                    //System.out.println(i.toString(), title.toString(), now.toString());
 
+                }
+                case 2 : {
 
-                } else if (input.equals("2")) {
                     System.out.print("제목:");
                     String str = sc.next();
                     title.add(str);
-                    /*title.add(sc.next());*/
                     System.out.print("작성자:");
                     name = sc.next();
                     System.out.println("글이 추가 되었습니다.");
+                    break;
                 }
 
-                else if (input.equals("0")) {
+                case 0: {
                     System.out.println("프로그램이 종료되었습니다.");
-                    break;
+                    bool = false;
                 }
 
 
             }
         }
     }
+}
