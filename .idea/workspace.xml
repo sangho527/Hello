@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b2b5dc-cdfe-40d8-86dd-8dd70fef3774" name="변경" comment="형변환">
-      <change afterPath="$PROJECT_DIR$/src/reteral.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/연습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/연습.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,16 +50,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.reteral">
-    <configuration name="문제1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="문제1" />
+  <component name="RunManager" selected="애플리케이션.연습">
+    <configuration name="연습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="연습" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="문제3" />
+    <configuration name="문제1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="문제1" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.연습" />
         <item itemvalue="애플리케이션.reteral" />
         <item itemvalue="애플리케이션.world" />
         <item itemvalue="애플리케이션.문제4" />
         <item itemvalue="애플리케이션.문제1" />
-        <item itemvalue="애플리케이션.문제3" />
       </list>
     </recent_temporary>
   </component>
@@ -132,6 +132,7 @@
       <workItem from="1662185300246" duration="5090000" />
       <workItem from="1663681282664" duration="190000" />
       <workItem from="1663720988738" duration="1148000" />
+      <workItem from="1663723307918" duration="1395000" />
     </task>
     <task id="LOCAL-00001" summary="변수">
       <created>1657461077621</created>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663681465723</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="형변환">
+      <created>1663723312064</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1663723312064</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,6 +419,7 @@
     <MESSAGE value="배열" />
     <MESSAGE value="백엔드스쿨" />
     <MESSAGE value="int, boolean" />
-    <option name="LAST_COMMIT_MESSAGE" value="int, boolean" />
+    <MESSAGE value="형변환" />
+    <option name="LAST_COMMIT_MESSAGE" value="형변환" />
   </component>
 </project>

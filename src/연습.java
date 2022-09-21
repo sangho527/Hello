@@ -1,19 +1,11 @@
-public class 연습{
-    static int nSize = 4; // 정적변수
+public class 연습 {
+    public static void main(String[] args) {
+        int x = 10;
+        int y = 20;
+        int z = 30;
+        int max_value = (x > y) ? x : y;
+        max_value = (max_value > z) ? max_value : z;
 
-    public static void main(String[] args) { // 메인 함수
-        int[] arr = new int[nSize];
-        makeArray(arr);
-        
-        for(int i = 0; i<nSize; i++) {
-            System.out.println(arr[i] + "");
-        }
-    }
-
-    public static void makeArray(int[] args) { // 반복문
-        for(int i = 0; i<nSize; i++) {
-            int[] arr = new int[0];
-            arr[i] = i;
-        }
+        System.out.println(max_value);
     }
 }
