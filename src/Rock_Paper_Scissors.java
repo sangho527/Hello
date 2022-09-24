@@ -10,12 +10,12 @@ public class Rock_Paper_Scissors {
     final int paper = 2;
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); // 스캐너입력
         System.out.println("가위(0), 바위(1), 보(2)");
         int user = sc.nextInt();
 
 
-        int computer = (int)(Math.random()*3);
+        int computer = (int)(Math.random()*3); // 랜덤함수 사용
 
         if(user == computer){
             System.out.println("비겼습니다.");
