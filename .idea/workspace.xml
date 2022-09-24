@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78b2b5dc-cdfe-40d8-86dd-8dd70fef3774" name="변경" comment="최댓값">
+    <list default="true" id="78b2b5dc-cdfe-40d8-86dd-8dd70fef3774" name="변경" comment="가위바위보">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/repeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/연습.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/연습.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="애플리케이션.repeat">
+  <component name="RunManager" selected="애플리케이션.연습">
     <configuration name="연습" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="연습" />
       <module name="Study_Java" />
@@ -58,29 +59,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="문제4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="문제4" />
+    <configuration name="Hi_Everyone" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hi_Everyone" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="repeat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="repeat" />
+    <configuration name="Rock_Paper_Scissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rock_Paper_Scissors" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="reteral" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reteral" />
+    <configuration name="Season" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Season" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="world" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="world" />
+    <configuration name="circleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="circleTest" />
       <module name="Study_Java" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.repeat" />
         <item itemvalue="애플리케이션.연습" />
-        <item itemvalue="애플리케이션.reteral" />
-        <item itemvalue="애플리케이션.world" />
-        <item itemvalue="애플리케이션.문제4" />
+        <item itemvalue="애플리케이션.Hi_Everyone" />
+        <item itemvalue="애플리케이션.circleTest" />
+        <item itemvalue="애플리케이션.Rock_Paper_Scissors" />
+        <item itemvalue="애플리케이션.Season" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +133,15 @@
       <workItem from="1662185300246" duration="5090000" />
       <workItem from="1663681282664" duration="190000" />
       <workItem from="1663720988738" duration="1148000" />
-      <workItem from="1663723307918" duration="2845000" />
+      <workItem from="1663723307918" duration="3173000" />
+      <workItem from="1663727998045" duration="1369000" />
+      <workItem from="1663742328294" duration="128000" />
+      <workItem from="1663742459189" duration="15000" />
+      <workItem from="1663742476594" duration="12000" />
+      <workItem from="1663746482953" duration="1418000" />
+      <workItem from="1663770371135" duration="9167000" />
+      <workItem from="1663842408918" duration="661000" />
+      <workItem from="1663990584644" duration="70000" />
     </task>
     <task id="LOCAL-00001" summary="변수">
       <created>1657461077621</created>
@@ -393,7 +402,91 @@
       <option name="project" value="LOCAL" />
       <updated>1663726631566</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="구구단">
+      <created>1663727791709</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1663727791709</updated>
+    </task>
+    <task id="LOCAL-00039" summary="배열1">
+      <created>1663742430522</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742430522</updated>
+    </task>
+    <task id="LOCAL-00040" summary="로또">
+      <created>1663742443421</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742443421</updated>
+    </task>
+    <task id="LOCAL-00041" summary="별찍기">
+      <created>1663742464945</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742464945</updated>
+    </task>
+    <task id="LOCAL-00042" summary="별찍기">
+      <created>1663742481176</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1663742481176</updated>
+    </task>
+    <task id="LOCAL-00043" summary="별 트리찍기">
+      <created>1663807345464</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1663807345464</updated>
+    </task>
+    <task id="LOCAL-00044" summary="High, Low 숫자 맞추기 게임">
+      <created>1663807371763</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1663807371763</updated>
+    </task>
+    <task id="LOCAL-00045" summary="스위치문을 이용한 계절 출력">
+      <created>1663809138557</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1663809138557</updated>
+    </task>
+    <task id="LOCAL-00046" summary="클래스">
+      <created>1663835385963</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1663835385963</updated>
+    </task>
+    <task id="LOCAL-00047" summary="가위바위보">
+      <created>1663835406742</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1663835406742</updated>
+    </task>
+    <task id="LOCAL-00048" summary="클래스">
+      <created>1663835420316</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1663835420316</updated>
+    </task>
+    <task id="LOCAL-00049" summary="가위바위보">
+      <created>1663990618067</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1663990618067</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +504,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="변수" />
     <MESSAGE value="스캐너" />
     <MESSAGE value="접근지정자" />
     <MESSAGE value="접근제한자" />
@@ -428,6 +520,15 @@
     <MESSAGE value="int, boolean" />
     <MESSAGE value="형변환" />
     <MESSAGE value="최댓값" />
-    <option name="LAST_COMMIT_MESSAGE" value="최댓값" />
+    <MESSAGE value="구구단" />
+    <MESSAGE value="배열1" />
+    <MESSAGE value="로또" />
+    <MESSAGE value="별찍기" />
+    <MESSAGE value="별 트리찍기" />
+    <MESSAGE value="High, Low 숫자 맞추기 게임" />
+    <MESSAGE value="스위치문을 이용한 계절 출력" />
+    <MESSAGE value="클래스" />
+    <MESSAGE value="가위바위보" />
+    <option name="LAST_COMMIT_MESSAGE" value="가위바위보" />
   </component>
 </project>

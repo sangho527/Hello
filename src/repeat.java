@@ -11,6 +11,23 @@ public class repeat {
             System.out.println();
         }
 
+        /* int num1 = 5;
+        int num2 = 7;
+        int i = 1;
+
+
+        while (i <= 100) {
+            if ((i % num1 == 0 && i % num2 ==0)){
+                System.out.println("찾는 정수:" + i++);
+
+            }
+            i++;
+            continue;
+
+
+
+        }
+*/
     }
 }
 
